@@ -62,10 +62,10 @@ kubectl gadget top file![image](https://github.com/user-attachments/assets/862ec
 <img width="959" alt="22" src="https://github.com/user-attachments/assets/c4a179a6-584d-4e93-aba1-89f47a62359d" />
 ---
 Additonal reference: 
-https://inspektor-gadget.io/docs/latest/gadgets/top_blockio
-https://inspektor-gadget.io/docs/latest/gadgets/top_file
-https://inspektor-gadget.io/docs/latest/gadgets/top_tcp
-https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/logs/capture-system-insights-from-aks#what-is-inspektor-gadget
+https://inspektor-gadget.io/docs/latest/gadgets/top_blockio \
+https://inspektor-gadget.io/docs/latest/gadgets/top_file \
+https://inspektor-gadget.io/docs/latest/gadgets/top_tcp \
+https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/logs/capture-system-insights-from-aks#what-is-inspektor-gadget \
 
 ---
 # Single click installation script for AKS 
