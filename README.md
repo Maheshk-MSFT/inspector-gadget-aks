@@ -62,11 +62,11 @@ How to monitor the network/data IO between the PODS
 ---
 <img width="959" alt="22" src="https://github.com/user-attachments/assets/c4a179a6-584d-4e93-aba1-89f47a62359d" />
 ---
-Additonal reference: 
-1. https://inspektor-gadget.io/docs/latest/gadgets/top_blockio
-2. https://inspektor-gadget.io/docs/latest/gadgets/top_file
-3. https://inspektor-gadget.io/docs/latest/gadgets/top_tcp 
-4. https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/logs/capture-system-insights-from-aks#what-is-inspektor-gadget
+Additonal reference:  </br>
+1. https://inspektor-gadget.io/docs/latest/gadgets/top_blockio </br>
+2. https://inspektor-gadget.io/docs/latest/gadgets/top_file </br>
+3. https://inspektor-gadget.io/docs/latest/gadgets/top_tcp  </br>
+4. https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/logs/capture-system-insights-from-aks#what-is-inspektor-gadget </br>
 
 ---
 # Single click installation script for AKS 
