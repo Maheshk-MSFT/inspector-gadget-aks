@@ -55,7 +55,8 @@ kubectl gadget run top_tcp:latest
 kubectl gadget top tcp
 kubectl gadget top file![image](https://github.com/user-attachments/assets/862ec6c2-30d9-4d1d-9c47-3b234d50bcea)
 ```
-# How to monitor the network/data IO between the PODS
+
+How to monitor the network/data IO between the PODS
 
 <img width="955" alt="11" src="https://github.com/user-attachments/assets/1349761d-0fb4-4ecf-92e3-59a61b160b09" />
 ---
