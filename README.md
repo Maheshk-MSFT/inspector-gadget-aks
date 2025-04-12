@@ -5,6 +5,8 @@ Installing on Linux
 ===================
 ```
 IG_VERSION=$(curl -s https://api.github.com/repos/inspektor-gadget/inspektor-gadget/releases/latest | jq -r .tag_name)
+
+
 IG_ARCH=amd64
 curl -sL https://github.com/inspektor-gadget/inspektor-gadget/releases/download/${IG_VERSION}/ig-linux-${IG_ARCH}-${IG_VERSION}.tar.gz | sudo tar -C /usr/local/bin -xzf - ig
 ig version
@@ -35,3 +37,12 @@ kubectl gadget run top_tcp:latest
 kubectl gadget top tcp
 kubectl gadget top file![image](https://github.com/user-attachments/assets/862ec6c2-30d9-4d1d-9c47-3b234d50bcea)
 ```
+How to monitor the network/data IO between the PODS
+
+<img width="955" alt="11" src="https://github.com/user-attachments/assets/1349761d-0fb4-4ecf-92e3-59a61b160b09" />
+
+<img width="959" alt="22" src="https://github.com/user-attachments/assets/c4a179a6-584d-4e93-aba1-89f47a62359d" />
+
+----
+Additonal reference: 
+
