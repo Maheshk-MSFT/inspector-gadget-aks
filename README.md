@@ -10,17 +10,17 @@ a. Process creation
 b. File access
 c. Network activity, such as TCP connections or DNS resolution
 
-----
+---
 1. Disk-intensive applications - High memory or CPU usage, or inconsistent node readiness - use top_blockio
 2. "It's always DNS" - High application latency, time-outs, or poor end-user experience - use Trace_dns
 3. File system access	Application misbehaves or can't function correctly - use Trace_open
 4. Remote code execution (RCE) - Unauthorized code execution such as cryptojacking that's evident in high CPU usage during application idle periods - use Trace_exec
-----
+---
 # inspector-gadget-aks
 Steps to install inspector-gadget at our AKS Cluster 
 
 Installing on Linux (WSL - Ubuntu20)
--------------------------
+-------------------------------------
 ```
 IG_VERSION=$(curl -s https://api.github.com/repos/inspektor-gadget/inspektor-gadget/releases/latest | jq -r .tag_name)
 
@@ -58,17 +58,16 @@ kubectl gadget top file![image](https://github.com/user-attachments/assets/862ec
 # How to monitor the network/data IO between the PODS
 
 <img width="955" alt="11" src="https://github.com/user-attachments/assets/1349761d-0fb4-4ecf-92e3-59a61b160b09" />
-
+---
 <img width="959" alt="22" src="https://github.com/user-attachments/assets/c4a179a6-584d-4e93-aba1-89f47a62359d" />
-
-----
-# Additonal reference: 
-
+---
+Additonal reference: 
 https://inspektor-gadget.io/docs/latest/gadgets/top_blockio
 https://inspektor-gadget.io/docs/latest/gadgets/top_file
 https://inspektor-gadget.io/docs/latest/gadgets/top_tcp
 https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/logs/capture-system-insights-from-aks#what-is-inspektor-gadget
------------------------
+
+---
 # Single click installation script for AKS 
 
 ```
