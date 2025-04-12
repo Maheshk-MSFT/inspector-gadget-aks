@@ -1,3 +1,8 @@
+# What is Inspektor Gadget?
+---------------------------
+Inspektor Gadget is a framework that's designed for building, packaging, deploying, and running tools that are dedicated to debugging and inspecting Linux and Kubernetes systems. These tools ("gadgets") are implemented as eBPF programs. Their primary goal is to gather low-level kernel data to provide insights into specific system scenarios. The Inspektor Gadget framework manages the association of the collected data by using high-level references, such as Kubernetes resources. This integration makes sure that a seamless connection exists between low-level insights and their corresponding high-level context. The integration streamlines the troubleshooting process and the collection of relevant information.
+
+
 # inspector-gadget-aks
 steps to inspector-gadget
 
@@ -45,4 +50,10 @@ How to monitor the network/data IO between the PODS
 
 ----
 Additonal reference: 
+
+https://inspektor-gadget.io/docs/latest/gadgets/top_blockio
+https://inspektor-gadget.io/docs/latest/gadgets/top_file
+https://inspektor-gadget.io/docs/latest/gadgets/top_tcp
+https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/logs/capture-system-insights-from-aks
+
 
